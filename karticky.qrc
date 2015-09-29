@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>KartaA.qml</file>
+        <file>KartaB.qml</file>
+    </qresource>
+</RCC>
