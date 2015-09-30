@@ -12,21 +12,19 @@ Window {
     property int sirkaObrazovky: Screen.width
     property int vyskaObrazovky: Screen.height
     property bool shift: false
+    property int medzeraMkartami: (sirkaObrazovky-(sirkaKarty*11))/12
 
     DropArea {
         anchors.fill: parent
     }
     ListaKariet{
-
     }
+
     Rectangle {
         id:kos
         x: sirkaObrazovky*0.95; y: sirkaObrazovky*0.05
         width: sirkaObrazovky/30; height: sirkaObrazovky/5
         color: "#0f0303"
-    }
-    Item {
-        id: container
     }
 
 }

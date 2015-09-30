@@ -2,9 +2,9 @@ import QtQuick 2.5
 
 Rectangle{
     property bool zmena:false
-
-    y: sirkaObrazovky/3
-    x: sirkaObrazovky*0.1
+    id: root
+    y: vyskaObrazovky*0.55
+    x: medzeraMkartami
     width: sirkaKarty
     height: vyskaKarty
     color: "#514949"
@@ -20,6 +20,7 @@ Rectangle{
                 component = Qt.createComponent("KartaA.qml")
                 component.createObject(container)
             zmena = true
+                root.z = 1
             }
         }
     }
@@ -29,4 +30,3 @@ Rectangle{
     }
 
 }
-

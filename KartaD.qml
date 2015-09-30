@@ -4,7 +4,7 @@ Rectangle{
     property bool zmena:false
     id: root
     y: vyskaObrazovky*0.55
-    x: sirkaKarty + 2*medzeraMkartami
+    x: 3*sirkaKarty + 4*medzeraMkartami
     width: sirkaKarty
     height: vyskaKarty
     color: "#514949"
@@ -17,7 +17,7 @@ Rectangle{
         drag.target: parent
         onPositionChanged: {
             if(!zmena){
-                component = Qt.createComponent("KartaB.qml")
+                component = Qt.createComponent("KartaD.qml")
                 component.createObject(container)
             zmena = true
                 root.z = 1
@@ -26,7 +26,7 @@ Rectangle{
     }
     Text{
         anchors.fill: parent
-        text: "B"
+        text: "D"
     }
 
 }

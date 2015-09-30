@@ -2,5 +2,32 @@
     <qresource prefix="/">
         <file>KartaA.qml</file>
         <file>KartaB.qml</file>
+        <file>KartaC.qml</file>
+        <file>KartaD.qml</file>
+        <file>KartaE.qml</file>
+        <file>KartaF.qml</file>
+        <file>KartaG.qml</file>
+        <file>KartaH.qml</file>
+        <file>KartaI.qml</file>
+        <file>KartaJ.qml</file>
+        <file>KartaK.qml</file>
+        <file>KartaL.qml</file>
+        <file>KartaM.qml</file>
+        <file>KartaN.qml</file>
+        <file>KartaO.qml</file>
+        <file>KartaP.qml</file>
+        <file>KartaQ.qml</file>
+        <file>KartaR.qml</file>
+        <file>KartaS.qml</file>
+        <file>KartaT.qml</file>
+        <file>KartaU.qml</file>
+        <file>KartaV.qml</file>
+        <file>KartaW.qml</file>
+        <file>KartaX.qml</file>
+        <file>KartaY.qml</file>
+        <file>KartaZ.qml</file>
+        <file>KartaBodka.qml</file>
+        <file>KartaVykricnik.qml</file>
+        <file>KartaOtaznik.qml</file>
     </qresource>
 </RCC>
